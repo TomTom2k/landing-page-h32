@@ -488,6 +488,9 @@ footer p {
         width: 12rem;
         height: 18rem;
     }
+    .intro-form.bot {
+        flex-direction: column;
+    }
     #activities .item {
         height: auto;
         flex-direction: column;
