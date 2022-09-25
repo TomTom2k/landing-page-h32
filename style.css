@@ -115,34 +115,65 @@ nav a:hover {
 }
 /* main */
 /* intro */
+.card {
+    margin: 2rem;
+    width: 35rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    overflow: hidden;
+    background-color: var(--white-background);
+    text-align: center;
+    box-shadow: 4px 4px 1rem rgba(0, 0, 0, 0.2);
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+.card h2 {
+    font-size: 2rem;
+}
+.t-intro {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
 .intro {
     position: relative;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
 }
-.t-intro {
+.intro-form {
     padding: 2rem 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.t-intro video{
+.intro-form.bot {
+    flex-direction: row-reverse;
+}
+.intro-form img,
+.intro-form video{
     display: block;
     max-width: 80rem;
     border-radius: 2rem;
     object-fit: cover;
     box-shadow: 4px 4px 1rem rgba(0, 0, 0, 0.2);
 }
-.t-intro .form {
+.intro-form .form {
+    margin: 4rem;
     padding: 2rem;
-    margin-left: 4rem;
     border-radius: 2rem;
     background-color: var(--white-background);
     box-shadow: 4px 4px 1rem rgba(0, 0, 0, 0.2);
     animation: tag 5s linear infinite;
 }
-.t-intro .form p {
+.intro-form .form p {
     font-size: 2rem;
     margin-bottom: 2rem;
     font-weight: 500;
@@ -400,12 +431,8 @@ footer p {
     .background {
         display: none;
     }
-    .t-intro {
+    .intro-form {
         flex-direction: column;
-    }
-    .t-intro .form {
-        margin-top: 2rem;
-        margin-left: 0;
     }
     .r-intro {
         display: none;
