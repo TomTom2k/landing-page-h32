@@ -160,13 +160,14 @@ nav a:hover {
 .intro-form img,
 .intro-form video{
     display: block;
+    width: 100%;
     max-width: 80rem;
     border-radius: 2rem;
     object-fit: cover;
     box-shadow: 4px 4px 1rem rgba(0, 0, 0, 0.2);
 }
 .intro-form .form {
-    margin: 4rem;
+    margin: 2rem 4rem;
     padding: 2rem;
     border-radius: 2rem;
     background-color: var(--white-background);
@@ -434,6 +435,9 @@ footer p {
     .intro-form {
         flex-direction: column;
     }
+    .intro-form.bot {
+        flex-direction: column;
+    }
     .r-intro {
         display: none;
     }
@@ -478,18 +482,18 @@ footer p {
     nav {
         width: 100%;
     }
-        nav a {
-            font-size: 1.6rem;
-        }
+    nav a {
+        font-size: 1.6rem;
+    }
+    .intro-form .form {
+        width: 100%;
+    }
     .b-intro .item {
         width: 100%;
     }
     .t-activities .item img {
         width: 12rem;
         height: 18rem;
-    }
-    .intro-form.bot {
-        flex-direction: column;
     }
     #activities .item {
         height: auto;
