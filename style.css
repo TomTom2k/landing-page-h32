@@ -35,6 +35,23 @@ body {
     background: var(--light-background);
 }
 
+#backgound {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#backgound img {
+    width: 100%;
+    opacity: 0.1;
+}
+
 button {
     color: var(--text-50);
     font-size: 1.6rem;
