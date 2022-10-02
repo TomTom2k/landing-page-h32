@@ -135,7 +135,7 @@ nav a:hover {
 .card {
     margin: 0 2rem 2rem;
     width: 35rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     padding: 2rem;
     overflow: hidden;
     background-color: var(--white-background);
@@ -146,8 +146,8 @@ nav a:hover {
 }
 .card img {
     width: 100%;
-    border-radius: 1rem;
-    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
 }
 .card h2 {
@@ -184,16 +184,16 @@ nav a:hover {
     display: block;
     width: 100%;
     max-width: 80rem;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
     object-fit: cover;
     box-shadow: 4px 4px 1rem rgba(0, 0, 0, 0.2);
 }
 .intro-form .form {
     width: 100%;
     max-width: 80rem;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     text-align: center;
     background-color: var(--white-background);
     box-shadow: 4px 4px 1rem rgba(0, 0, 0, 0.2);
